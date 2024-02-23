@@ -13,7 +13,7 @@ if(!is_null($usuario) || $usuario != []){
 
     header('Location: ../listar.html');
     exit;
-    return http_response_code(200);
+    //return http_response_code(200);
 //    return "Logado com sucesso";
 }else{
     return http_response_code(500);
